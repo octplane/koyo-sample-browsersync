@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "del": "^5.0.0",
+    "eslint": "^5.15.0",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-livereload": "^4.0.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "prettier": "^1.16.4"
+  },
+  "scripts": {
+    "serve": "gulp serve",
+    "watch": "gulp watch"
+  }
+}

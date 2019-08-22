@@ -1,0 +1,6 @@
+.env
+compiled
+coverage
+node_modules
+static
+data

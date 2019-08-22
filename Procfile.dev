@@ -1,0 +1,2 @@
+assets: npm run serve
+web: raco koyo serve

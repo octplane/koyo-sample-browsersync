@@ -1,0 +1,19 @@
+postgresql:
+  image: postgres:10.4-alpine
+  ports:
+    - 5432:5432
+  environment:
+    - PGDATA=/postgresql
+    - PG_PASSWORD=mmp
+  volumes:
+    - ./data/postgresql:/postgresql
+
+postgresql_tests:
+  image: postgres:10.4-alpine
+  ports:
+    - 4321:5432
+  environment:
+    - PGDATA=/postgresql
+    - PG_PASSWORD=mmp
+  volumes:
+    - ./data/postgresql_tests:/postgresql
